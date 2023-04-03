@@ -3,6 +3,7 @@
 # frozen_string_literal: true
 
 require 'restclient'
+require 'wechat-pay/error'
 require 'wechat-pay/sign'
 require 'wechat-pay/direct' # 直连模式
 require 'wechat-pay/ecommerce' # 电商平台
