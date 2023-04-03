@@ -94,7 +94,7 @@ module WechatPay
         string = build_paysign_string(appid, timestamp, noncestr, prepay_id)
 
         {
-          timeStamp: timestamp,
+          timestamp: timestamp,
           nonceStr: noncestr,
           package: "prepay_id=#{prepay_id}",
           paySign: sign_string(string),
